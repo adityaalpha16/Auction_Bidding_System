@@ -1,0 +1,20 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\namit\\\\Desktop\\\\addi\\\\auction-bidding-system\\\\public\\\\assets\\\\images\"; Copy-Item -Path \"c:\\\\Users\\\\namit\\\\Desktop\\\\addi\\\\frontend\\\\assets\\\\logo\\.png\" -Destination \"c:\\\\Users\\\\namit\\\\Desktop\\\\addi\\\\auction-bidding-system\\\\public\\\\assets\\\\images\\\\logo\\.png\" -Force; Copy-Item -Path \"c:\\\\Users\\\\namit\\\\Desktop\\\\addi\\\\frontend\\\\assets\\\\bg1\\.jpg \\(1\\)\\.jpeg\" -Destination \"c:\\\\Users\\\\namit\\\\Desktop\\\\addi\\\\auction-bidding-system\\\\public\\\\assets\\\\images\\\\bg1\\.jpg\" -Force$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^Set-Location \"c:\\\\Users\\\\namit\\\\Desktop\\\\addi\\\\frontend\"; npm install$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^npm --prefix \"c:\\\\Users\\\\namit\\\\Desktop\\\\addi\\\\auction-bidding-system\\\\backend\" start$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^npm --prefix backend start$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
